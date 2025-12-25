@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy New Year ❤️</title>
+
+<style>
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background:#ffffff;
+  color:#444;
+}
+
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+h1{
+  text-align:center;
+  font-size:3rem;
+  color:#ff4d88;
+  margin:30px 0;
+}
+
+/* Main paragraph */
+.main-text{
+  background:#ffffff;
+  border-radius:20px;
+  padding:25px;
+  line-height:1.8;
+  box-shadow:0 10px 30px rgba(255,77,136,0.2);
+}
+
+/* Pink video section */
+.gallery{
+  margin-top:50px;
+  display:flex;
+  flex-direction:column;
+  gap:40px;
+  background:#ffd6e8;
+  padding:40px 20px;
+  border-radius:30px;
+}
+
+.photo-box{
+  display:flex;
+  align-items:center;
+  gap:25px;
+}
+
+.photo-box.right{
+  flex-direction:row-reverse;
+}
+
+.photo-box video{
+  width:260px;
+  height:160px;
+  object-fit:cover;
+  border-radius:25px;
+  border:6px solid #ff69b4;
+}
+
+.quote{
+  font-size:1rem;
+  line-height:1.6;
+}
+
+footer{
+  text-align:center;
+  margin:40px 0;
+  color:#ff4d88;
+}
+
+/* Mobile */
+@media(max-width:768px){
+  h1{font-size:2.2rem;}
+  .photo-box{
+    flex-direction:column !important;
+    text-align:center;
+  }
+  .photo-box video{
+    width:100%;
+    height:220px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Tap to Start -->
+<div id="overlay" style="
+position:fixed;
+top:0;left:0;
+width:100%;height:100%;
+background:#ffd6e8;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:9999;">
+  <button onclick="startMusic()" style="
+    padding:18px 30px;
+    font-size:20px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d88;
+    color:white;">
+    💖 Tap to Start 💖
+  </button>
+</div>
+
+<audio id="bgm" loop>
+  <source src="Only you know me.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function startMusic(){
+  const bgm = document.getElementById('bgm');
+  bgm.volume = 0.3;
+  bgm.play();
+  document.getElementById('overlay').style.display='none';
+}
+</script>
+
+<div class="container">
+
+<h1>✨ Happy New Year My Love ✨</h1>
+
+<div class="main-text">
+My love ❤️✨, as this beautiful New Year begins 🎆🎉, I just want to hold every second still and pour my heart out for you 💖🥹 because you are not just my girlfriend, you are my home 🏡❤️, my peace ☁️💫, my favorite thought in every sunrise 🌅 and my last prayer every night 🌙🤍; another year has ended ⏳, and with it came thousands of moments, smiles 😊, tears 😢, lessons 📖, memories 📸, fights 😔, silences 🤐, and love that only grew stronger 💪❤️, and through all of it, it was you 🌹—your voice 🎶, your laughter 😂, your care 🤗, your anger 😅, your sweetness 🍯, your stubbornness 🙈—everything about you that made my world brighter 🌈✨; I still remember how this year felt when it started 🗓️ and how uncertain everything seemed 🤍😶, but then you walked with me hand in hand 🤝❤️, teaching me what patience means 🫶, what loyalty feels like 🔐, what real love looks like 💞, and what it means to choose one person every single day 🌍❤️; there were times when I hurt you 😔💔, times when I failed to understand you 😞, times when my words weren’t right 🥀, but even then you stayed 🌸🤍, and that’s something I will forever be grateful for 🙏❤️; this New Year 🎊✨ I don’t wish for expensive gifts 🎁 or perfect days 🌤️, I only wish for us 💑.
+</div>
+
+<div class="gallery">
+
+  <!-- Video 1 - LEFT -->
+  <div class="photo-box left">
+    <video src="VID_20251223_234640_169.mp4" autoplay loop muted playsinline></video>
+    <div class="quote">
+      My love, as this New Year begins, I just want you to know how grateful I am for you. You are my happiest thought, my calm in chaos, and the most beautiful part of my every day. Starting another year with you feels like a blessing.<br><br>
+      This past year was special because of the moments we shared, the laughs, the lessons, and even the struggles that made us stronger. Your love inspires me to be better, dream bigger, and smile more than ever before.<br><br>
+      May this New Year bring us closer, fill our lives with love, success, and endless memories. I promise to stand by you, support you, and love you even more with each passing day. Happy New Year, my heart ❤️✨
+    </div>
+  </div>
+
+  <!-- Video 2 - RIGHT -->
+  <div class="photo-box right">
+    <video src="VID_20251223_234541_540.mp4" autoplay loop muted playsinline></video>
+    <div class="quote">
+      My love, as this New Year begins, I just want you to know how grateful I am for you. You are my happiest thought, my calm in chaos, and the most beautiful part of my every day. Starting another year with you feels like a blessing.<br><br>
+      This past year was special because of the moments we shared, the laughs, the lessons, and even the struggles that made us stronger. Your love inspires me to be better, dream bigger, and smile more than ever before.<br><br>
+      May this New Year bring us closer, fill our lives with love, success, and endless memories. I promise to stand by you, support you, and love you even more with each passing day. Happy New Year, my heart ❤️✨
+    </div>
+  </div>
+
+  <!-- Video 3 - LEFT -->
+  <div class="photo-box left">
+    <video src="VID_20251223_234535_826.mp4" autoplay loop muted playsinline></video>
+    <div class="quote">
+      My love, as this New Year begins, I just want you to know how grateful I am for you. You are my happiest thought, my calm in chaos, and the most beautiful part of my every day. Starting another year with you feels like a blessing.<br><br>
+      This past year was special because of the moments we shared, the laughs, the lessons, and even the struggles that made us stronger. Your love inspires me to be better, dream bigger, and smile more than ever before.<br><br>
+      May this New Year bring us closer, fill our lives with love, success, and endless memories. I promise to stand by you, support you, and love you even more with each passing day. Happy New Year, my heart ❤️✨
+    </div>
+  </div>
+
+</div>
+
+<footer>
+Made with ❤️ just for you
+</footer>
+
+</div>
+</body>
+</html>
